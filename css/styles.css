@@ -677,6 +677,10 @@ input .user-comment-input:focus {
   color: var(--active-states-color);
 }
 
+.comment-container {
+  margin-bottom: 16px;
+}
+
 .terms-conditions-container {
   margin-bottom: 24px; 
 }
@@ -701,7 +705,7 @@ input .user-comment-input:focus {
   fill: transparent; 
 }
 
-input[type='checkbox']:checked + .check-privacy {
+input[type='checkbox']:checked > .check-privacy {
   border: none;
   background-color: var(--pressed-state-color);
   fill: var(--light-background-color);
