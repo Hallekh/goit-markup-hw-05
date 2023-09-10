@@ -436,6 +436,7 @@ border-color: var(--pressed-state-color);
   display: flex;
   flex-shrink: 0;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .logo-box {
@@ -492,6 +493,55 @@ footer a {
 .foo-link:hover,
 .foo-link:focus {
 background-color: var(--success-color);
+}
+
+.subscribe-container {
+margin-left: 65px;
+}
+
+.subscribe-title {
+  margin-bottom: 16px; 
+  font-weight: 500; 
+  font-size: 16px;
+  line-height: 1.5; 
+  letter-spacing: 0.02em;
+  color: var(--white-background-color);
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.user-email-input {
+  width: 264px; 
+  height: 40px; 
+  border: 1px solid var(--white-background-color); 
+  background-color: transparent; 
+  font-size: 12px; 
+  line-height: 1.5; 
+  letter-spacing: 0.04em; 
+  padding-left: 16px; 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); 
+  border-radius: 4px; 
+  color: var(--white-background-color);
+}
+
+.user-email-input::placeholder {
+  color: var(--white-background-color);
+}
+
+.send {
+  margin-left: 16px; 
+  fill: var(--white-background-color);
+}
+
+.subscribe-btn {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  min-width: 165px; 
+  height: 40px; 
 }
 
 .backdrop {
